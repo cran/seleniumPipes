@@ -11,7 +11,7 @@
 
 <meta name="author" content="John D Harrison" />
 
-<meta name="date" content="2016-08-23" />
+<meta name="date" content="2016-09-30" />
 
 <title>seleniumPipes: Basic operation</title>
 
@@ -118,7 +118,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">seleniumPipes: Basic operation</h1>
 <h4 class="author"><em>John D Harrison</em></h4>
-<h4 class="date"><em>2016-08-23</em></h4>
+<h4 class="date"><em>2016-09-30</em></h4>
 
 </div>
 
@@ -184,8 +184,8 @@ $(document).ready(function () {
 <div id="seleniumpipes-basics" class="section level2">
 <h2>seleniumPipes basics</h2>
 <p>In what follows I am running my code on Ubuntu 16.04. The same machine has a Selenium Server running in a docker container. This Docker image can be found <a href="https://hub.docker.com/r/selenium/standalone-chrome-debug/~/dockerfile/">here</a>. I am starting my Selenium server with the following <code>docker</code> command:</p>
-<pre><code>docker run -d -p 4445:4444 -p 5901:5900 selenium/standalone-chrome-debug:2.53.0</code></pre>
-<p>So I am running the standalone chrome debug image from the Selenium project at Docker Hub. I am running the version of this image with tag <code>2.53.0</code>. On my host machine the Selenium Server is exposed on port 4445 and the browser can be viewed via VNC on port 5901 on my ubuntu 16.04 host.</p>
+<pre><code>docker run -d -p 4445:4444 -p 5901:5900 selenium/standalone-chrome-debug:2.53.1</code></pre>
+<p>So I am running the standalone chrome debug image from the Selenium project at Docker Hub. I am running the version of this image with tag <code>2.53.1</code>. On my host machine the Selenium Server is exposed on port 4445 and the browser can be viewed via VNC on port 5901 on my ubuntu 16.04 host.</p>
 <p><strong>The above is only for the users information and allows them to replicate my setup. It is not necessary and the user may use any Selenium Server they have access to.</strong></p>
 <div id="connecting-to-the-selenium-server." class="section level3">
 <h3>Connecting to the Selenium Server.</h3>
@@ -623,7 +623,7 @@ newHandle &lt;- allHandles[!allHandles %in% currentHandle][[1]]
 <li>Navigate to google</li>
 <li>Search for “CRAN r-project”</li>
 <li>Click the first search result</li>
-<li>Manipulate the frames at <a href="http://cran.r-project.org" class="uri">http://cran.r-project.org</a></li>
+<li>Manipulate the frames at <a href="https://CRAN.R-project.org/" class="uri">https://CRAN.R-project.org/</a></li>
 <li>Switch to the third frame</li>
 <li>Get all the “Download R” urls</li>
 </ul>

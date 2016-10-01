@@ -312,10 +312,10 @@ JCommands <- list(
    , type = "ret1"
   ),
 
-  maximizeWindow = list(com = "jsonBody <- NULL\n", type = "ret2"),
+  maximizeWindow = list(com = "jsonBody <- NULL\n", type = "ret1"),
 
   maximizeWindowOld = list(com = "jsonBody <- NULL\nobj$windowHandle <- handle"
-                        , args = list(handle = "\"current\""), type = "ret2"
+                        , args = list(handle = "\"current\""), type = "ret1"
   ),
 
   switchToFrame = list(
@@ -332,7 +332,10 @@ JCommands <- list(
     , type = "ret1"
   ),
 
-  switchToParentFrame = list(type = "ret1"),
+  switchToParentFrame = list(com =  "
+# Add function specific JSON to post
+  jsonBody <- NULL
+  ",type = "ret1"),
 
   findElement = list(
     com = "

@@ -1,24 +1,34 @@
 seleniumPipes
 ==========================
+| CRAN version       | Travis build status    | SauceTests  | Coverage |
+| :-------------: |:-------------:|:-------------:|:-------------:|
+| [![](http://www.r-pkg.org/badges/version/seleniumPipes)](https://CRAN.R-project.org/package=seleniumPipes) | [![Build Status](https://travis-ci.org/johndharrison/seleniumPipes.svg?branch=master)](https://travis-ci.org/johndharrison/seleniumPipes) | [![Sauce Test Status](https://saucelabs.com/buildstatus/seleniumPipes)](https://saucelabs.com/u/seleniumPipes) | [![codecov](https://codecov.io/gh/johndharrison/seleniumPipes/branch/master/graph/badge.svg)](https://codecov.io/gh/johndharrison/seleniumPipes)|
 
-#### Travis build status
-[![Build Status](https://travis-ci.org/johndharrison/seleniumPipes.svg?branch=master)](https://travis-ci.org/johndharrison/seleniumPipes)
 
-#### Selenium test staus
-[![Sauce Test Status](https://saucelabs.com/buildstatus/seleniumPipes)](https://saucelabs.com/u/seleniumPipes)
+ 
+
+#### Selenium test status
+
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/seleniumPipes.svg)](https://saucelabs.com/u/seleniumPipes)
 
-##### *A lightweight implementation of w3c wedriver specification*
+##### *A lightweight implementation of w3c webdriver specification*
 
 ### Introduction
 
-seleniumPipes is a lightweight implementation of the [w3c wedriver specification](https://w3c.github.io/webdriver/webdriver-spec.html).
+seleniumPipes is a lightweight implementation of the [w3c webdriver specification](https://w3c.github.io/webdriver/webdriver-spec.html).
 It has been built utilising `xml2`, `httr` and `magrittr` so provides an alternative for users who are familiar with piping.
 
 ### Install
 
-To install seleniumPipes run:
+To install seleniumPipes from CRAN
+
+```
+install.packages("seleniumPipes")
+```
+
+
+To install the current developement version of seleniumPipes run:
 
 ```
 devtools::install_github("johndharrison/seleniumPipes")

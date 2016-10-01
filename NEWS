@@ -1,3 +1,30 @@
+# seleniumpipes 0.3.7
+* Set CRAN URL's in canonical form
+
+# seleniumpipes 0.3.6
+* Move testing to version 2.53.1
+* Update basic operation vignette
+
+# seleniumpipes 0.3.5
+* suggests RSauceLabs for polling SauceLabs.com API now on CRAN
+
+# seleniumpipes 0.3.4
+* Add sauceLabs test to travis
+
+# seleniumpipes 0.3.3
+* Fix issue with maximiseWindow
+* Add further tests and increase test coverage
+
+# seleniumpipes 0.3.2
+* Fix issue with switchToParentFrame
+* Add further tests and increase test coverage
+
+# seleniumpipes 0.3.1
+* Add testing on Travis and testing locally using Docker containers
+
+# seleniumpipes 0.3.0
+* Initial release to CRAN
+
 # seleniumpipes 0.2.7
 * A vignette on basic operation has been added
 * The retry argument can now be passed in all functions and is detailed at ?retry
